@@ -1,0 +1,94 @@
+pi:
+  name: Eugene Santos, Jr.
+  headshot: /assets/img/headshots/eugene_santos_headshot.jpg
+  title: Professor of Engineering
+  education:
+    - level: BS
+      type: Mathematics and Computer Science
+      school: Youngstown State University
+      year: 1985
+
+    - level: MS
+      type: Mathematics
+      school: Youngstown State University
+      year: 1986
+
+    - level: ScM
+      type: Computer Science
+      school: Brown University
+      year: 1988
+
+    - level: PhD
+      type: Computer Science
+      school: Brown University
+      year: 1992
+  bio: >-
+    Dr. Eugene Santos, Jr. (born 1968) received his Ph.D. ('92) in Computer Science from Brown University.
+    He is currently Professor of Engineering at the Thayer School of Engineering and Adjunct Professor of Computer Science 
+    at Dartmouth College. Dr. Santos’ work on artificial intelligence intersects the areas of information, 
+    cognition, human factors, and mathematics. His current focus is on computational intent, dynamic human behavior, and 
+    decision-making with an emphasis on learning nonlinear and emergent behaviors and explainable AI. Dr. Santos has 
+    applied his work with the goal of better understanding how we, both as individuals and our society, can best 
+    leverage knowledge through AI to improve our world for social good. These application areas include computational social systems  group to individual 
+    decision-making, opinion and belief change, socio-cultural attitudes and factors, and social resilience; 
+    user and team modeling  inferring user intentions and needs, surgical errors and team intention gaps, and 
+    effective use of text and data analytics; and, cybersecurity  insider threat and deception detection, misinformation vs. 
+    disinformation, and adversarial intent and course of action analysis. He was appointed to the State of Vermont 
+    Taskforce on AI, serves on the Board of Directors for Sigma Xi as the Northeast Region Director, and is a 2019 Public 
+    Voices fellow of the OpEd Project. Dr. Santos was Editor-in-Chief for the IEEE Transactions on Cybernetics (formerly IEEE 
+    Transactions on Systems, Man, and Cybernetics Part B) from 2008-2013. He is a Fellow of the AAAS and IEEE.
+
+grad_students:
+  - name: Chase Yakaboski
+    headshot: /assets/img/headshots/chase_yakaboski_headshot.jpg
+    role: PhD Candidate
+    education:
+      - level: BA
+        type: Physics
+        school: University of California, Berkeley
+        year: 2014
+  
+  - name: Greg Hyde
+    role: PhD Student
+    education:
+      - level: BS
+        type: Computer Science
+        school: University of Wisconsin-Whitewater
+        year: 2017
+      - level: MS
+        type: Computer Science
+        school: University of Wisconsin-Whitewater
+        year: 2019
+  
+  - name: Clement Nyanhongo
+    role: PhD Student
+    education:
+      - level: BE
+        type: Computer Engineering
+        school: Dartmouth College
+        year: 2018
+
+postdocs:
+  - name: Keumjoo Kim
+    role: Postdoc
+    education:
+      - level: BS
+        type: Computer Science
+        school: Ewha Womans University
+        year: 1993
+      - level: MS
+        type: Computer Science
+        school: Ewha Womans University
+        year: 1995
+      - level: PhD
+        type: Computer Science
+        school: Dartmouth College
+        year: 2006
+
+past_students:
+  - name: Jacob Russell
+    year: TBD
+  - name: Jeremey Thompson
+    year: TBD
+  - name: Yan Shao
+    year: 2019

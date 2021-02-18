@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>{{ page.publication_type }}</h2>
+<hr>
+<ul>
+    {% for pub in site.data.publications %}
+        {% if pub.type == {{ page.publication_type }} %}
+            <li>
+                <a href={{ pub.href }}>{{ pub.citation }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+

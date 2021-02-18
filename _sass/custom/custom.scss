@@ -1,0 +1,33 @@
+.person-container {
+    display: flex;
+    align-items: flex-end;
+    margin-right: -200px;
+
+}
+
+.person-container .headshot-pi {
+    align-self: center;
+}
+
+.person-container .headshot-gs {
+    align-self: center;
+}
+
+.person-container .text {
+    margin-left: 10px;
+    align-self: center;
+}
+
+.text {
+    padding: 10px;
+}
+
+.headshot-pi {
+    padding: 10px;
+    width: 300px;
+}
+
+.headshot-gs {
+    padding: 10px;
+    width: 200px;
+}

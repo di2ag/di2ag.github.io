@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<h1>Principal Investigator</h1>
+<hr>
+<div class="person-container">
+    <img src= "{{ site.data.personnel.pi.headshot }}" class="headshot-pi"> 
+    <div class="text">
+        <h2>{{ site.data.personnel.pi.name }}</h2>
+        <p>{{ site.data.personnel.pi.title }}</p>
+        <h3>Education</h3>
+        <ul>
+            {% for degree in site.data.personnel.pi.education %}
+                <li>{{ degree.level }}, {{ degree.type }}, {{ degree.school }}, {{ degree.year }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<h2>Biography</h2>
+<p style="margin-right: -200px">
+    {{ site.data.personnel.pi.bio }}
+</p>
+
+<h1>Graduate Students</h1>
+<hr>
+{% for student in site.data.personnel.grad_students %}
+<div class="person-container">
+    <img src= "{{ student.headshot | default:'/assets/img/headshots/placeholder.png' }}" class="headshot-gs"> 
+    <div class="text">
+        <h2>{{ student.name }}</h2>
+        <p>{{ student.role }}</p>
+        <h3>Education</h3>
+        <ul>
+            {% for degree in student.education %}
+                <li>{{ degree.level }}, {{ degree.type }}, {{ degree.school }}, {{ degree.year }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endfor %}
+
+
+<h1>Research Associates</h1>
+<hr>
+{% for associate in site.data.personnel.postdocs %}
+<div class="person-container">
+    <img src= "{{ associate.headshot | default:'/assets/img/headshots/placeholder.png' }}" class="headshot-gs"> 
+    <div class="text">
+        <h2>{{ associate.name }}</h2>
+        <p>{{ associate.role }}</p>
+        <h3>Education</h3>
+        <ul>
+            {% for degree in associate.education %}
+                <li>{{ degree.level }}, {{ degree.type }}, {{ degree.school }}, {{ degree.year }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endfor %}
+
+<h1>Former Students</h1>
+<hr>
+<ul>
+{% for student in site.data.personnel.past_students %}
+    <li>{{ student.name }}, {{ student.year }}</li>
+{% endfor %}
+</ul>

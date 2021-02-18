@@ -1,0 +1,33 @@
+- title: Modeling Social Resilience in Communities
+  year: 2018
+  type: journal
+  authors:
+    - first_name_initals: E. E.
+      last_name: Santos
+    - first_name_initals: E.
+      last_name: Santos
+    - first_name_initals: J.
+      last_name: Korah
+    - first_name_initals: J. E.
+      last_name: Thompson
+    - first_name_initals: Y.
+      last_name: Zhao
+    - first_name_initals: V.
+      last_name: Murugappan
+    - first_name_initals: J. A.
+      last_name: Russell
+  venue: IEEE Transactions on Computational Social Science
+  edition: 5(1)
+  pages: 186-199
+  href: http://di2ag.thayer.dartmouth.edu/wiki/images/a/a2/Modeling_social_resilience_in_communities.pdf
+
+- title: Automatic Emergence Detection in Complex Systems
+  year: 2017
+  type: journal
+  authors:
+    - first_name_initals: E.
+      last_name: Santos
+    - first_name_initals: Y.
+      last_name: Zhao
+  venue: Complexity
+  href: http://di2ag.thayer.dartmouth.edu/wiki/images/0/00/Automatic_emergence_detection_in_complex_systems.pdf
